@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="image1.jpg" style="width: 220px; height: 300px;">
+        <h1></h1>
+        <i style="font-family: Arial, Helvetica, sans-serif;">will you be my valentine, chelo?💕</i>
+    </div>
+
+    <a href="second.html">
+        <button id="yesBtn">Yes😘</button>
+    </a>
+
+    
+    <a1>
+    <button id="noBtn" onmouseover="runAway()">No😌</button>
+    <script>
+        function runAway() {
+            const btn = document.getElementById("noBtn");
+
+            const x = Math.random() * (window.innerWidth - 100);
+            const y = Math.random() * (window.innerHeight - 50);
+
+            btn.style.left = x + "px";
+            btn.style.top = y + "px";
+        }
+    </script>
+    </a1>
+</body>
+</html>

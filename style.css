@@ -1,0 +1,65 @@
+body {
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+    position: relative;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    right: 400px;
+    top: 200px;
+    width: 100px;
+}
+
+#noBtn {
+    background-color: #cccccc;
+    position: absolute;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    right: 700px;
+    top: 557px;
+    width: 100px;
+}
+
+.gif {
+    z-index: 1;
+    opacity: 0.3;
+}
